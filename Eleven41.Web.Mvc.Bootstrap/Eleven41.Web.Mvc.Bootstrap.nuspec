@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Eleven41.Web.Mvc.Bootstrap</id>
+    <version>1.0.0</version>
+    <authors>Eleven41 Software</authors>
+    <owners>>Eleven41 Software</owners>
+    <licenseUrl>https://github.com/eleven41/Eleven41.Web.Mvc.Bootstrap/blob/master/LICENSE.md</licenseUrl>
+    <projectUrl>https://github.com/eleven41/Eleven41.Web.Mvc.Bootstrap</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>HTML Helper extensions for MVC3 projects using Twitter Bootstrap</description>
+    <releaseNotes>Initial release.</releaseNotes>
+    <copyright>Copyright 2013</copyright>
+    <tags>mvc mvc3 bootstrap</tags>
+  </metadata>
+</package>
