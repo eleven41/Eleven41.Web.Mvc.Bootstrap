@@ -29,12 +29,17 @@ namespace System.Web.Mvc
 
 		public static BootstrapAlert BeginErrorBox(this HtmlHelper html)
 		{
-			return BeginErrorBox(html, null);
+			return BeginErrorBox(html, null, null, null);
 		}
 
 		public static BootstrapAlert BeginErrorBox(this HtmlHelper html, string title)
 		{
-			return BeginErrorBox(html, null, null, null);
+			return BeginErrorBox(html, title, null, null);
+		}
+
+		public static BootstrapAlert BeginErrorBox(this HtmlHelper html, string title, string id)
+		{
+			return BeginErrorBox(html, title, id, null);
 		}
 
 		public static BootstrapAlert BeginErrorBox(this HtmlHelper html, string title, string id, string className)
