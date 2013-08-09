@@ -58,7 +58,9 @@
     <Compile Include="TagBuilderExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Eleven41.Web.Mvc.Bootstrap.nuspec" />
+    <None Include="Eleven41.Web.Mvc.Bootstrap.nuspec">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
